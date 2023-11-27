@@ -584,7 +584,7 @@ function randomWave() {
     if (isWave(35)) {
         waves.push([0, ['taunt', 'faster', 200]]);
     }
-    if{isWave(36)) {
+    if (isWave(36)) {
         waves.push([5, ['spawn', 'spawn', 'spawn', 'tank', 'tank', 'taunt', 300]]);
     }
 
