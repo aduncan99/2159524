@@ -750,7 +750,6 @@ function updateStatus() {
     document.getElementById('health').innerHTML = 'Health: ' +
     health + '/' + maxHealth;
     document.getElementById('cash').innerHTML = '$' + cash;
-    document.getElementById('wcd').innerHTML = wcd;
 }
 
 // Upgrade tower
@@ -1090,7 +1089,10 @@ function keyPressed() {
             break;
         case 82:
             // R
-            resetGame();
+            var banana = confirm('Are you sure?');
+            if (banana == true){
+              resetGame();
+            }
             break;
         case 83:
             // S
