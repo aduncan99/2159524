@@ -407,6 +407,8 @@ function loadSounds() {
 function nextWave() {
     addWave(randomWaves ? randomWave() : customWave());
     wave++;
+    wcd = 0;
+    toWait = false;
 }
 
 // Check if no more enemies
@@ -999,8 +1001,6 @@ function draw() {
 
     // Start next wave
     if (toWait && wcd === 0 || skipToNext && newEnemies.length === 0) {
-        toWait = false;
-        wcd = 0;
         nextWave();
     }
 
