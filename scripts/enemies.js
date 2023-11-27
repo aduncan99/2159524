@@ -99,6 +99,23 @@ enemy.medic = {
     health: 375,
     immune: ['regen'],
     // Methods
+    onKilled: function() {
+        if (this.alive) {
+            cash += this.cash;
+            this.kill();
+            if (!muteSounds && sounds.hasOwnProperty(this.sound)) {
+                sounds[this.sound].play();
+            }
+            
+            // Add new temporary spawnpoint
+            var c = gridPos(this.pos.x, this.pos.y);
+            if (c.equals(exit)) return;
+            for (var i = 0; i < tempSpawns.length; i++) {
+                if (c.equals(tempSpawns[i][0])) return;
+            }
+            tempSpawns.push([createVector(c.x, c.y), tempSpawnCount]);
+        }
+    }
     onTick: function() {
         var affected = getInRange(this.pos.x, this.pos.y, 2, enemies);
         for (var i = 0; i < affected.length; i++) {
