@@ -25,3 +25,17 @@ the Github [repo](https://github.com/rsaihe/td-editor/).
 * W to toggle delay between waves
 * X to export map string (copies to clipboard)
 * Z to return to default zoom level (will reset game!)
+
+Enemies:
+* Weak, cash 1, health 35
+* strong, cash 1, health 75
+* fast, cash 2, health 75, speed 2
+* strongFast, cash 2, health 135, speed 2
+* medic, cash 4, health 375, immune regen
+* stronger, cash 4, health 375
+* faster, cash 4, health 375, resistant explosion, speed 3
+* tank, cash 4, health 750, immune poison slow, resistant energy physical, weak explosion piercing
+* taunt, cash 8, health 1500, immune poison slow, resistant energy physical
+* spawner, cash 10, health 1150, ability spawn
+
+Improved by Alexander Duncan
