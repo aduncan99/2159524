@@ -750,6 +750,7 @@ function updateStatus() {
     document.getElementById('health').innerHTML = 'Health: ' +
     health + '/' + maxHealth;
     document.getElementById('cash').innerHTML = '$' + cash;
+    document.getElementById('wcd').innerHTML = wcd + ' ticks until next wave';
 }
 
 // Upgrade tower
