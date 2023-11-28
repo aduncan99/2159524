@@ -26,7 +26,7 @@ the Github [repo](https://github.com/rsaihe/td-editor/).
 * X to export map string (copies to clipboard)
 * Z to return to default zoom level (will reset game!)
 
-Enemies:
+### Enemies:
 * Weak, cash 1, health 35
 * strong, cash 1, health 75
 * fast, cash 2, health 75, speed 2
@@ -38,4 +38,10 @@ Enemies:
 * taunt, cash 8, health 1500, immune poison slow, resistant energy physical
 * spawner, cash 10, health 1150, ability spawn
 
-Improved by Alexander Duncan
+### Improvements:
+* Added Next Wave button for debugging (work in progress)
+* Added confirmation window to prevent accidental reloads or window exiting.
+* Added wave 36 (which is kind of hard, god mode recommended)
+* Changed font color to red so that it's easier to see
+* Added enemy info to README.md
+* Added notes.md for developer notes (TODO, FIXME, etc.)
