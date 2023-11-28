@@ -89,7 +89,7 @@ aside {
 }
 
 #store button, #map-aside button {
-    color: #000;
+    color: red;
     min-width: 100%;
     text-align: center;
     text-shadow: none;
