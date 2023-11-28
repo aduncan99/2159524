@@ -1,5 +1,5 @@
 # towerdefense
-Simple tower defense game in p5.js that can be played
+This is an improved version of rsaihe's tower defense game. You can play the original
 [here](https://rsaihe.github.io/towerdefense/).
 
 You can also make and edit custom maps using this
