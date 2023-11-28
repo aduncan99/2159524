@@ -10,7 +10,7 @@ html, body {
 
 body {
     background-color: #000;
-    color: red;
+    color: #00E640;
     display: flex;
     flex-direction: column;
     font-family: 'Source Code Pro', monospace;
@@ -139,6 +139,7 @@ button {
 
 #status {
     font-size: 0.95em;
+    color: red;
 }
 
 #info {
