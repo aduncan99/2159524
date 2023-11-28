@@ -51,7 +51,7 @@ main {
 }
 
 a:link, a:visited {
-    color: #00E640;
+    color: red;
 }
 
 #left-asides, #right-asides {
