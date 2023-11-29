@@ -41,6 +41,19 @@ tower.gun = {
     ]
 };
 
+tower.minigun = {
+    color: [100, 0, 0],
+    length: 0.7,
+    radius: 0.9,
+    name: 'minigun',
+    title: 'Minigun Tower',
+    cooldownMax: 0.1,
+    cost: 100,
+    damageMax: 10,
+    range: 5,
+    type: 'physical'
+};
+
 tower.laser = {
     // Display
     color: [25, 181, 254],
