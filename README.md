@@ -37,6 +37,7 @@ the Github [repo](https://github.com/rsaihe/td-editor/).
 * tank, cash 4, health 750, immune poison slow, resistant energy physical, weak explosion piercing
 * taunt, cash 8, health 1500, immune poison slow, resistant energy physical
 * spawner, cash 10, health 1150, ability spawn
+* monkey, cash 2, health 35, speed 3, immune energy
 
 ### Improvements:
 * Added Next Wave button for debugging (work in progress)
@@ -45,3 +46,4 @@ the Github [repo](https://github.com/rsaihe/td-editor/).
 * Changed font color to red so that it's easier to see
 * Added enemy info to README.md
 * Added notes.md for developer notes (TODO, FIXME, etc.)
+* Added 'monkey' enemy
