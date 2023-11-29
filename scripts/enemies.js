@@ -32,9 +32,9 @@ enemy.monkey = {
 	name: 'monkey',
 	// Stats
 	cash: 2,
-	health: 35,
+	health: 20,
 	speed: 3,
-	immune: ['energy']
+	resistant: ['energy', 'explosion', 'piercing']
 }
 
 enemy.strong = {
