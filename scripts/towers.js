@@ -47,10 +47,10 @@ tower.minigun = {
     radius: 0.9,
     name: 'minigun',
     title: 'Minigun Tower',
-    cooldownMax: 1,
-    cooldownMin: 0.1,
+    cooldownMax: 10,
+    cooldownMin: 0,
     cost: 500,
-    damageMax: 10,
+    damageMax: 30,
     range: 4,
     type: 'physical'
 };
