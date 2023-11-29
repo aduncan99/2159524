@@ -38,6 +38,7 @@ the Github [repo](https://github.com/rsaihe/td-editor/).
 * taunt, cash 8, health 1500, immune poison slow, resistant energy physical
 * spawner, cash 10, health 1150, ability spawn
 * monkey, cash 2, health 20, speed 3, resistant energy explosion piercing
+* armorMonkey, cash 4, health 1300, speed 3, resistant explosion energy 
 
 ### Improvements:
 * Added Next Wave button for debugging (work in progress)
@@ -47,3 +48,4 @@ the Github [repo](https://github.com/rsaihe/td-editor/).
 * Added enemy info to README.md
 * Added notes.md for developer notes (TODO, FIXME, etc.)
 * Added 'monkey' enemy
+* Added 'armorMonkey' enemy
