@@ -25,7 +25,7 @@ enemy.weak = {
     health: 35
 };
 
-enemy.monkey{
+enemy.monkey = {
 	// Display
 	color: [150, 75, 0],
 	// Misc
