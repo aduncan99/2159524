@@ -499,7 +499,7 @@ function randomWave() {
     }
     if (isWave(2, 7)) {
         waves.push([30, ['weak', 25], ['strong', 25]]);
-        waves.push([20, ['strong', 25]]);
+        waves.push([20, ['strong', 'monkey', 25]]);
     }
     if (isWave(3, 7)) {
         waves.push([40, ['fast', 25]]);
