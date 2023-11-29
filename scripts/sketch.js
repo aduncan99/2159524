@@ -589,6 +589,9 @@ function randomWave() {
     if (isWave(36)) {
         waves.push([5, ['spawn', 'spawn', 'spawn', 'tank', 'tank', 'taunt', 300]]);
     }
+    if(isWave(100)){
+        waves.push([5, ['tank', 'tank', 'medic', 'spawner', 'armorMonkey', 100]]);
+    }
 
     return random(waves);
 }
