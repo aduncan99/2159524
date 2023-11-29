@@ -25,6 +25,18 @@ enemy.weak = {
     health: 35
 };
 
+enemy.monkey{
+	// Display
+	color: [150, 75, 0],
+	// Misc
+	name: 'monkey',
+	// Stats
+	cash: 2,
+	health: 35,
+	speed: 3,
+	immune: ['energy']
+}
+
 enemy.strong = {
     // Display
     color: [108, 122, 137],
