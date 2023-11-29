@@ -25,6 +25,16 @@ enemy.weak = {
     health: 35
 };
 
+enemy.armorMonkey = {
+	color: [92, 64, 51],
+	radius: 0.7,
+	name: 'armorMonkey',
+	cash: 4,
+	health: 1300,
+	speed: 3,
+	resistant: ['explosion', 'energy', ]
+};
+
 enemy.monkey = {
 	// Display
 	color: [150, 75, 0],
@@ -34,8 +44,9 @@ enemy.monkey = {
 	cash: 2,
 	health: 20,
 	speed: 3,
-	resistant: ['energy', 'explosion', 'piercing']
-}
+	resistant: ['energy', 'explosion', 'piercing'],
+	immune: ['poison']
+};
 
 enemy.strong = {
     // Display
