@@ -18,6 +18,7 @@ tower.wall = {
     damageMin: 0,
     range: 0,
     cost: 15,
+    type: 'physical',
     upgrades: 
         [
             {
@@ -26,7 +27,8 @@ tower.wall = {
                 cost: 30,
                 title: 'Spike Wall',
                 range: 1,
-                damageMax: 5
+                damageMax: 5,
+                damageMin: 5
             }
         ]
 };
