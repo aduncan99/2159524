@@ -183,7 +183,24 @@ tower.slow = {
             // Methods
             onHit: function(e) {
                 e.applyEffect('poison', 60);
-            }
+            },
+            upgrades:
+                [
+                    {
+                        color: [250, 197, 5],
+                        radius 0.9,
+                        name: 'fallout',
+                        title: 'Fallout Tower',
+                        cooldownMax: 90,
+                        cooldownMin: 80,
+                        cost: 300,
+                        range: 2,
+                        type: 'radiation',
+                        onHit: function(e) {
+                            e.applyEffect('radiation', 100);
+                        }
+                    }
+                ]
         }
     ]
 };
