@@ -36,24 +36,27 @@ tower.gun = {
             cooldownMin: 0,
             cost: 75,
             damageMax: 10,
-            damageMin: 0
+            damageMin: 0,
+            upgrades: [
+                {
+                    color: [150, 0, 0],
+                    length: 0.7,
+                    radius: 0.9,
+                    name: 'minigun',
+                    title: 'Minigun Tower',
+                    cooldownMax: 10,
+                    cooldownMin: 0,
+                    cost: 400,
+                    damageMax: 75,
+                    range: 4,
+                    type: 'physical'
+                }
+            ]
         }
     ]
 };
 
-tower.minigun = {
-    color: [150, 0, 0],
-    length: 0.7,
-    radius: 0.9,
-    name: 'minigun',
-    title: 'Minigun Tower',
-    cooldownMax: 10,
-    cooldownMin: 0,
-    cost: 400,
-    damageMax: 75,
-    range: 4,
-    type: 'physical'
-};
+
 
 tower.laser = {
     // Display
