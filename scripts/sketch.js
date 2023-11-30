@@ -405,6 +405,7 @@ function loadSounds() {
 
 // Increment wave counter and prepare wave
 function nextWave() {
+    waves.length = 0;
     addWave(randomWaves ? randomWave() : customWave());
     wave++;
     wcd = 0;
@@ -586,11 +587,8 @@ function randomWave() {
     if (isWave(35)) {
         waves.push([0, ['taunt', 'faster', 200]]);
     }
-    if (isWave(36)) {
-        waves.push([5, ['spawn', 'spawn', 'spawn', 'tank', 'tank', 'taunt', 300]]);
-    }
-    if(isWave(100)){
-        waves.push([5, ['tank', 'tank', 'medic', 'spawner', 'armorMonkey', 100]]);
+    if (isWave(50, 100)){
+        waves.push([10, ['monkey', 'armorMonkey', 50]]);
     }
 
     return random(waves);
