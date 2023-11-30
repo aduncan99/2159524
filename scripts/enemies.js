@@ -262,3 +262,37 @@ enemy.spawner = {
         }
     }
 };
+
+enemy.abrams = {
+    // Display
+    color: [0, 130, 200],
+    radius: 1,
+    // Misc
+    name: 'abrams',
+    // Stats
+    cash: 6,
+    health: 1100,
+    immune: ['poison', 'slow'],
+    resistant: ['energy', 'physical'],
+    weak: ['explosion', 'piercing'],
+    // Methods
+    draw: function() {
+        push();
+        translate(this.pos.x, this.pos.y);
+        rotate(this.vel.heading());
+        
+        stroke(0);
+        fill(this.getColor());
+        var front = this.radius * ts / 2;
+        var side = 0.7 * ts / 2;
+        var barrel = 0.15 * ts / 2;
+        var length = 0.7 * ts;
+        var curve = 0.2 * ts;
+        rect(-front, -side, front * 2, side * 2, curve);
+        fill(149, 165, 166);
+        rect(0, -barrel, length, barrel * 2);
+        ellipse(0, 0, 0.2 * ts * 2, 0.2 * ts * 2);
+
+        pop();
+    }
+};
