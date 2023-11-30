@@ -405,7 +405,6 @@ function loadSounds() {
 
 // Increment wave counter and prepare wave
 function nextWave() {
-    waves.length = 0;
     addWave(randomWaves ? randomWave() : customWave());
     wave++;
     wcd = 0;
