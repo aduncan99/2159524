@@ -188,7 +188,7 @@ tower.slow = {
                 [
                     {
                         color: [250, 197, 5],
-                        radius 0.9,
+                        radius: 0.9,
                         name: 'fallout',
                         title: 'Fallout Tower',
                         cooldownMax: 90,
