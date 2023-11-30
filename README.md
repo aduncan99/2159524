@@ -41,11 +41,11 @@ the Github [repo](https://github.com/rsaihe/td-editor/).
 * armorMonkey, cash 4, health 1300, speed 3, resistant explosion energy 
 
 ### Improvements:
-* Added Next Wave button for debugging (work in progress)
-* Added confirmation window to prevent accidental reloads or window exiting.
-* Added wave 36 (which is kind of hard, god mode recommended)
+* Added confirmation window to prevent accidental reloads or window/tab exiting.
 * Changed font color to red so that it's easier to see
 * Added enemy info to README.md
 * Added notes.md for developer notes (TODO, FIXME, etc.)
 * Added 'monkey' enemy
 * Added 'armorMonkey' enemy
+* Added Minigun Tower (gun --> machine gun --> minigun)
+* Added Fallout Tower (slow --> poison --> fallout) 
