@@ -56,6 +56,6 @@ effects.radiation = {
     color: [250, 197, 5],
     name: 'radiation',
     onTick: function(e) {
-        e.dealDamage(2, 'poison');
+        e.dealDamage(4, 'poison');
     }
 };
