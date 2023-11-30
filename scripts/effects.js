@@ -56,6 +56,6 @@ effects.radiation = {
     color: [250, 197, 5],
     name: 'radiation',
     onTick: function(e) {
-        e.health = e.health+2;
+        e.health = e.health-2;
     }
 };
