@@ -9,6 +9,27 @@ function createTower(x, y, template) {
 var tower = {};
 
 
+tower.wall = {
+    color: [47, 92, 91],
+    radius: 1,
+    name: 'wall',
+    title: 'Wall',
+    damageMax: 0,
+    damageMin: 0,
+    range: 0,
+    cost: 15,
+    upgrades: 
+        [
+            {
+                color: [36, 0, 237],
+                name: 'spikewall',
+                title: 'Spike Wall',
+                range: 1,
+                damageMax: 5
+            }
+        ]
+};
+
 tower.gun = {
     // Display
     color: [249, 191, 59],
