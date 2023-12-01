@@ -1141,7 +1141,7 @@ function keyPressed() {
                 resetGame();
             }
             break;
-        case 59:
+        case 56:
             //8
             setPlace('wall');
             break;
