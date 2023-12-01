@@ -26,7 +26,7 @@ tower.wall = {
                 name: 'spikewall',
                 cost: 30,
                 title: 'Spike Wall',
-                range: 0.5,
+                range: 0.2,
                 damageMax: 5,
                 damageMin: 5
             }
