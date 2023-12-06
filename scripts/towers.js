@@ -24,7 +24,7 @@ tower.wall = {
             {
                 color: [36, 0, 237],
                 name: 'spikewall',
-                cost: 30,
+                cost: 80,
                 title: 'Spike Wall',
                 range: 0.2,
                 damageMax: 5,
