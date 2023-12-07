@@ -27,8 +27,8 @@ tower.wall = {
                 cost: 80,
                 title: 'Spike Wall',
                 range: 0.2,
-                damageMax: 5,
-                damageMin: 5
+                damageMax: 4,
+                damageMin: 0
             }
         ]
 };
