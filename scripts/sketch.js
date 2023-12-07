@@ -589,6 +589,9 @@ function randomWave() {
     if (isWave(50, 100)){
         waves.push([10, ['monkey', 'armorMonkey', 50]]);
     }
+    if (isWave(20, 100)){
+        waves.push([20, ['abrams', 'abrams', 'weak', 'armorMonkey', 100]]);
+    }
 
     return random(waves);
 }
