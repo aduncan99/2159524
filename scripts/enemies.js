@@ -270,11 +270,10 @@ enemy.abrams = {
     // Misc
     name: 'abrams',
     // Stats
-    cash: 6,
-    health: 1100,
+    cash: 10,
+    health: 3000,
     immune: ['poison', 'slow'],
-    resistant: ['energy', 'physical'],
-    weak: ['explosion', 'piercing'],
+    resistant: ['energy', 'physical','explosion','piercing'],
     // Methods
     draw: function() {
         push();
